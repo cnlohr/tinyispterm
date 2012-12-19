@@ -1,0 +1,3 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="abcd", GROUP="adm", MODE="0666"
+SUBSYSTEM=="usb", ATTR{product}=="USBtiny", ATTR{idProduct}=="0c9f", ATTRS{idVendor}=="1781", MODE="0666", GROUP="adm"
+
